@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBox - Магазин игр</title>
+</head>
+<body>
+    <!-- Шапка сайта с логотипом и навигацией -->
+    <header>
+        <div>
+            <h1>GameBox</h1>
+            <p>Лучшие игры для всех платформ</p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основное содержимое страницы -->
+    <main>
+        <!-- Баннер  -->
+        <section id="main">
+            <h2>Новые поступления</h2>
+            <p>Только что добавлены свежие игры сезона</p>
+        </section>
+
+        <!-- каталог игр -->
+        <section id="catalog">
+            <h2>Популярные игры</h2>
+            
+            <article>
+                <h3>Cyberpunk 2077</h3>
+                <p>Ролевая игра в мире будущего</p>
+                <p><strong>Цена:</strong> 2999 руб.</p>
+                <button>В корзину</button>
+            </article>
+            
+            <article>
+                <h3>Elden Ring</h3>
+                <p>Фэнтези с открытым миром</p>
+                <p><strong>Цена:</strong> 3499 руб.</p>
+                <button>В корзину</button>
+            </article>
+            
+            <article>
+                <h3>FIFA 24</h3>
+                <p>Футбольный симулятор</p>
+                <p><strong>Цена:</strong> 2499 руб.</p>
+                <button>В корзину</button>
+            </article>
+        </section>
+
+        <!-- доп инфа -->
+        <aside>
+            <h3>Акции недели</h3>
+            <ul>
+                <li>Скидка 20% на все игры старше года</li>
+                <li>Купи 2 игры - получи третью в подарок</li>
+                <li>Бесплатная доставка при заказе от 5000 руб.</li>
+            </ul>
+        </aside>
+
+        <!-- О компании -->
+        <section id="about">
+            <h2>О магазине GameBox</h2>
+            <p>Мы работаем с 2010 года и предлагаем лицензионные игры для PC, PlayStation и Xbox.</p>
+        </section>
+    </main>
+
+    <!-- обратная связь -->
+    <section id="contacts">
+        <h2>Связаться с нами</h2>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>&copy; 2024 GameBox. Все права защищены.</p>
+        <address>
+            Email: <a href="mailto:info@gamebox.ru">info@gamebox.ru</a><br>
+            Телефон: <a href="tel:+78005553535">8-800-555-35-35</a>
+        </address>
+    </footer>
+</body>
+</html>
